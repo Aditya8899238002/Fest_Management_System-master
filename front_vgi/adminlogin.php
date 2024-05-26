@@ -3,7 +3,7 @@
   //checking for session variable
   if (isset($_SESSION['pid']))
  {
-  $URL="http://localhost/admin_zephyr/index_new.php";
+  $URL="http://localhost/admin_zephyr/admin_zephyr/index_new.php";
   echo "<script>location.href='$URL'</script>";
  }
  //checking for button clicked
